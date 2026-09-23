@@ -6,7 +6,7 @@
 /*   By: vicsanch <vicsanch@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 19:31:20 by vicsanch          #+#    #+#             */
-/*   Updated: 2026/09/22 19:34:57 by vicsanch         ###   ########.fr       */
+/*   Updated: 2026/09/23 20:16:02 by vicsanch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ int	ft_strlen(char *str)
 	int	i;
 
 	i = 0;
-	while (str)
+	while (str[i])
 		i++;
 	return (i);
 }

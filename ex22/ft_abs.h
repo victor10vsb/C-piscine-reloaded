@@ -6,11 +6,11 @@
 /*   By: vicsanch <vicsanch@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/23 15:06:31 by vicsanch          #+#    #+#             */
-/*   Updated: 2026/09/23 15:10:36 by vicsanch         ###   ########.fr       */
+/*   Updated: 2026/09/23 20:17:10 by vicsanch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifdef FT_ABS_H
+#ifndef FT_ABS_H
 # define FT_ABS_H
 
 # define ABS(Value) ((Value) < 0 ? -(Value) : (Value))

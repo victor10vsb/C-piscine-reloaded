@@ -6,7 +6,7 @@
 /*   By: vicsanch <vicsanch@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 19:27:48 by vicsanch          #+#    #+#             */
-/*   Updated: 2026/09/22 19:30:10 by vicsanch         ###   ########.fr       */
+/*   Updated: 2026/09/23 20:15:28 by vicsanch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr(char *str)
 	int	i;
 
 	i = 0;
-	while (str)
+	while (str[i])
 	{
 		ft_putchar(str[i]);
 		i++;
