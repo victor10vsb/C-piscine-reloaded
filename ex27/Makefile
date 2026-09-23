@@ -2,7 +2,7 @@ NAME = ft_display_file
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = display_file.c
+SRCS = ft_display_file.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
